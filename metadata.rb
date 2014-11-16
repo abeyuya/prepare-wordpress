@@ -1,4 +1,4 @@
-name             'setup_wordpress'
+name             'prepare_wordpress'
 maintainer       'YOUR_COMPANY_NAME'
 maintainer_email 'YOUR_EMAIL'
 license          'All rights reserved'
