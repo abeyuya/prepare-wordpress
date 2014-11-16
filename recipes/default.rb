@@ -21,7 +21,7 @@ end
 link "#{node["wordpress"]["install_path"]}/#{node["wordpress"]["project_name"]}" do
   owner  'apache'
   group  'apache'
-  to "#{node["wordpress"]["project_paleced_dir"]}/#{node["wordpress"]["project_name"]}"
+  to "#{node["wordpress"]["project_placed_dir"]}/#{node["wordpress"]["project_name"]}"
   link_type :symbolic
 end
 
